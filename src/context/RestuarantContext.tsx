@@ -81,6 +81,159 @@ export const RestaurantProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         status: "maybe",
         lastModified: -1, // Placeholder timestamp
       },
+      {
+        "name": "Lazy Betty",
+        "images": [
+          "images/lazybetty.jpg"
+        ],
+        "distance": "2.5 miles away",
+        "likes": "8 friends liked this place",
+        "tags": ["American", "Fine Dining", "Tasting Menu"],
+        "description": "Lazy Betty offers inventive tasting menus blending modern techniques with global flavors, all served with Southern hospitality.",
+        "reviews": [
+          "An exceptional dining experience with creative dishes.",
+          "The tasting menu is a culinary journey worth every penny.",
+          "Impeccable service and ambiance."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Mujō",
+        "images": [
+          "images/mujo.avif"
+        ],
+        "distance": "3.0 miles away",
+        "likes": "6 friends liked this place",
+        "tags": ["Japanese", "Sushi", "Omakase"],
+        "description": "Mujō specializes in an intimate omakase experience, serving exquisite Japanese cuisine with fresh, seasonal ingredients.",
+        "reviews": [
+          "The best sushi experience I've had in Atlanta.",
+          "Each course was a delightful surprise.",
+          "A must-visit for sushi enthusiasts."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "La Semilla",
+        "images": [
+          "images/lasemilla.avif"
+        ],
+        "distance": "1.8 miles away",
+        "likes": "5 friends liked this place",
+        "tags": ["Vegan", "Latin", "Casual"],
+        "description": "La Semilla offers Cuban-Mexican vegan dishes in a vibrant atmosphere, celebrating Latin flavors with a plant-based twist.",
+        "reviews": [
+          "A haven for vegan food lovers.",
+          "The flavors are rich and authentic.",
+          "Even non-vegans will be impressed."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Atlas",
+        "images": [
+          "images/atls.jpg"
+        ],
+        "distance": "4.0 miles away",
+        "likes": "7 friends liked this place",
+        "tags": ["American", "Fine Dining", "Artistic"],
+        "description": "Located in the St. Regis Atlanta, Atlas combines fine dining with an impressive art collection, offering a luxurious culinary experience.",
+        "reviews": [
+          "A perfect spot for special occasions.",
+          "The art adds a unique touch to the dining experience.",
+          "Exceptional food and service."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Talat Market",
+        "images": [
+          "images/talatmarket.jpg"
+        ],
+        "distance": "2.2 miles away",
+        "likes": "4 friends liked this place",
+        "tags": ["Thai", "Casual", "Innovative"],
+        "description": "Talat Market offers a creative take on Thai cuisine, with a weekly changing menu that keeps diners coming back for new experiences.",
+        "reviews": [
+          "Innovative dishes that excite the palate.",
+          "A fresh twist on traditional Thai flavors.",
+          "Always something new and delicious to try."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Gunshow",
+        "images": [
+          "images/gunshow.jpg"
+        ],
+        "distance": "3.5 miles away",
+        "likes": "9 friends liked this place",
+        "tags": ["American", "Interactive", "Unique"],
+        "description": "Gunshow offers an interactive dining experience where chefs present dishes tableside, creating a communal and engaging atmosphere.",
+        "reviews": [
+          "A dining experience like no other.",
+          "The chefs' creativity shines through each dish.",
+          "Fun and delicious—a must-visit."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "The Optimist",
+        "images": [
+          "images/theoptimist.jpg"
+        ],
+        "distance": "2.8 miles away",
+        "likes": "6 friends liked this place",
+        "tags": ["Seafood", "Casual", "Coastal"],
+        "description": "The Optimist transports guests to a coastal escape with its sustainable seafood offerings in a laid-back setting.",
+        "reviews": [
+          "Fresh seafood in a relaxed atmosphere.",
+          "The lobster roll is a must-try.",
+          "Feels like dining by the ocean."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Bomb Biscuits",
+        "images": [
+          "images/bombbiscuits.jpg"
+        ],
+        "distance": "1.5 miles away",
+        "likes": "5 friends liked this place",
+        "tags": ["Southern", "Breakfast", "Casual"],
+        "description": "Bomb Biscuits serves homestyle breakfasts and brunches, specializing in Southern-style biscuits that have garnered national acclaim.",
+        "reviews": [
+          "The best biscuits I've ever had.",
+          "A breakfast spot that lives up to the hype.",
+          "Delicious food with a cozy vibe."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
+      {
+        "name": "Hayakawa",
+        "images": [
+          "images/hayakawa.jpg"
+        ],
+        "distance": "3.2 miles away",
+        "likes": "7 friends liked this place",
+        "tags": ["Japanese", "Sushi", "Omakase"],
+        "description": "Hayakawa offers an elegant omakase experience with Hokkaido-style nigiri, featuring thick, buttery cuts of fish.",
+        "reviews": [
+          "A sushi experience that's both entertaining and delicious.",
+          "The chef's storytelling adds to the meal.",
+          "High-quality fish and a memorable dining experience."
+        ],
+        "status": "maybe",
+        "lastModified": -1
+      },
     ]);
 
   const updateRestaurantStatus = (name: string, status: "no" | "maybe" | "accepted") => {
